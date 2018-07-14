@@ -47,19 +47,20 @@ public class TestProcessorImpl implements TestProcessor {
         this.test = new Test();
     }
 
-    @ShellMethod(value = "Enroll as a student", key = "enroll")
+    @ShellMethod(value = "Enroll as a student.", key = "enroll")
     public void getEnrolledStudent() {
         theStudent = studentEnrollment.enrollStudent();
         isStudentAvailable = true;
     }
 
-    @ShellMethod(value = "Show current student info", key = "info")
+    @ShellMethod(value = "Show current student info.", key = "info")
     public void showStudentInfo() {
-        System.out.printf("Student name: %s %s", theStudent.getFirstName(), theStudent.getLastName());
+        System.out.printf("Student name: %s %s \n", theStudent.getFirstName(), theStudent.getLastName());
+
     }
 
     @Override
-    @ShellMethod(value = "start test", key = "start")
+    @ShellMethod(value = "Start the test.", key = "start")
     public void doTest() {
         result = 0;
         if (localeString.isPresent()) {
