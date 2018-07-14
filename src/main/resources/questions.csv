@@ -1,0 +1,11 @@
+number,text                                                 ,answer ,locale
+1     ,How many hours in 5 days?                            ,120    ,en_US
+2     ,What is the earth satellite name?                    ,Lunar  ,en_US
+3     ,How many are there oceans on the earth?              ,5      ,en_US
+4     ,What is the first color of the rainbow color palette?,red    ,en_US
+5     ,How many grams in one kilo?                          ,1000   ,en_US
+1     ,Сколько часов в пяти сутках?                         ,120    ,ru_RU
+2     ,Как называется спутник земли?                    				,Луна   ,ru_RU
+3     ,Сколько океанов на земле?               													,5      ,ru_RU
+4     ,Какой первый цвет в радуге?																										,красный,ru_RU
+5     ,Сколько граммов в килограмме?                        ,1000   ,ru_RU
